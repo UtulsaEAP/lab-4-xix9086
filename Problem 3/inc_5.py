@@ -6,6 +6,15 @@ Lab Time:
 """
 
 def inc_5():
+    one = int(input())
+    two = int(input())
+    string = ""
+    for i in range(one, two + 1, 5):
+        string = string + str(i) +" "
+        
+
+    print(string)
+        
     # Write your code here
     
 
