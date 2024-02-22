@@ -18,11 +18,11 @@ def brute_eq():
 
     for x in range (-10, 11, 1):
         for y in range (-10, 11, 1):
-            if a * x + b * y == c & d * x + e * y == f:
-                print("x = %d, y = %d"%(x, y))
+            if a * x + b * y == c and d * x + e * y == f:
+                print("x = %d , y = %d"%(x, y))
                 return
 
-    print("No solution found")
+    print("There is no solution found")
 
     
 if __name__ == "__main__":

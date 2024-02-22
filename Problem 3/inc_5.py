@@ -8,12 +8,15 @@ Lab Time:
 def inc_5():
     one = int(input())
     two = int(input())
-    string = ""
-    for i in range(one, two + 1, 5):
-        string = string + str(i) +" "
+    if two < one:
+        print("Second integer can't be less than the first.")
+    else:
+     string = ""
+     for i in range(one, two + 1, 5):
+          string = string + str(i) +" "
         
 
-    print(string)
+     print(string)
         
     # Write your code here
     

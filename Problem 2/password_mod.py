@@ -25,6 +25,7 @@ def password_mod():
             password += '$'
         else:
             password += word[i]
+    password += '!'
     print (password)
     # Type your code here.
 
